@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="papyruss.css" rel="stylesheet" type="text/css" />
+    <title>Simple Form</title>
+</head>
+<body>
+    <!-- Modal window -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Форма</h2>
+            <form id="myForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="country">Страна:</label>
+                <select id="country" name="country" required>
+                    <option value="">Выберите страну</option>
+                    <option value="Russia">Россия</option>
+                    <option value="USA">США</option>
+                    <option value="UK">Великобритания</option>
+                </select><br><br>
+
+                <label for="date">Дата:</label>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="comments">Комментарии:</label>
+                <textarea id="comments" name="comments" required></textarea><br><br>
+
+                <input type="hidden" id="serviceType" name="serviceType" value="">
+
+                <button type="submit">Отправить</button>
+            </form>
+            <div id="response">
+                <p>Спасибо за отправку формы!</p>
+                <p><a href="главная.html">Вернуться на главную страницу</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

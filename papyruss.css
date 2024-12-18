@@ -1,0 +1,306 @@
+        @font-face {
+            font-family: 'Papyrus';
+            src: url('PAPYRUS.TTF') format('truetype');
+            /* Update the path if necessary */
+        }
+
+        body {
+            font-family: 'Papyrus', Arial, sans-serif;
+            /* Use Papyrus font */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: black;
+            /* Black background */
+            color: white;
+            /* White text */
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000;
+        }
+
+        nav {
+
+
+            border-bottom: 1px solid #ccc;
+        }
+
+        nav ul {
+
+            list-style-type: none;
+            padding: 0;
+
+        }
+
+        nav ul li {
+
+            margin-right: 0px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* Убираем подчеркивание */
+            color: black;
+            /* Цвет текста по умолчанию */
+            padding: 5px 10px;
+            /* Добавляем отступы для кнопок */
+            transition: background-color 0.3s, color 0.3s;
+            /* Плавный переход */
+        }
+
+        nav ul li a:hover {
+            background-color: blue;
+            /* Цвет фона при наведении */
+            color: white;
+            /* Цвет текста при наведении */
+            border-radius: 5px;
+            /* Закругление углов кнопок */
+        }
+
+        main {
+
+            padding: 20px;
+        }
+
+        aside {
+
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .content {
+            flex-grow: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Button styles */
+        button {
+            background-color: white;
+            /* Default button color */
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+            /* Change to blue on hover */
+            color: white;
+            /* Change text color to white on hover */
+        }
+
+        body {
+            font-family: 'Papyrus', Arial, sans-serif;
+            /* Используйте Papyrus как основной шрифт */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: black;
+            /* Черный фон */
+            color: white;
+            /* Белый текст */
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000;
+        }
+
+        nav {
+            border-bottom: 1px solid #ccc;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* Убираем подчеркивание */
+            color: black;
+            /* Цвет текста по умолчанию */
+            padding: 5px 10px;
+            /* Добавляем отступы для кнопок */
+            transition: background-color 0.3s, color 0.3s;
+            /* Плавный переход */
+        }
+
+        nav ul li a:hover {
+            background-color: blue;
+            /* Цвет фона при наведении */
+            color: white;
+            /* Цвет текста при наведении */
+            border-radius: 5px;
+            /* Закругление углов кнопок */
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        aside {
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .content {
+            flex-grow: 1;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        /* Button styles */
+        input[type="submit"] {
+            
+                background-color: white;
+                /* Цвет кнопки по умолчанию */
+                border: 1px solid #ccc;
+                padding: 10px 15px;
+                cursor: pointer;
+            
+
+            input[type="submit"]:hover {
+                background-color: blue;
+                /* Синий фон при наведении */
+                color: white;
+                /* Белый текст при наведении */
+            }
+
+            tr:hover {
+                background-color: blue;
+                /* Цвет фона при наведении */
+                color: white;
+                /* Цвет текста при наведении */
+                border-radius: 5px;
+                /* Закругление углов кнопок */
+            }
+
+            li {
+                text-decoration: none;
+                /* Убираем подчеркивание */
+                background-color: white;
+                /* Default button color */
+                padding: 10px 15px;
+            }
+
+            li a {
+                text-decoration: none;
+                /* Убираем подчеркивание */
+                color: black;
+                /* Цвет текста по умолчанию */
+                padding: 5px 10px;
+                /* Добавляем отступы для кнопок */
+                transition: background-color 0.3s, color 0.3s;
+                /* Плавный переход */
+            }
+
+            li a:hover {
+                background-color: blue;
+                /* Цвет фона при наведении */
+                color: white;
+                /* Цвет текста при наведении */
+                border-radius: 5px;
+                /* Закругление углов кнопок */
+            }
+
+            li a:active {
+                background-color: red;
+                /* Цвет фона при наведении */
+                color: white;
+                /* Цвет текста при наведении */
+                border-radius: 5px;
+                /* Закругление углов кнопок */
+                transition: background-color 0.3s, color 0.3s;
+                /* Плавный переход */
+            }
+        }
+
+
+        @media (min-width: 3px) {
+            p, a {
+                color: red;
+            }
+
+            ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            main {
+                flex-direction: column;
+            }
+
+            .services { 
+                grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr); 
+                   }
+            
+                .content {
+                    border-collapse: ;
+                    width: 100%;
+                    margin-top: 20px;
+                }       
+                #prakt table{
+                    overflow-x: hidden;
+                    height: auto;
+                }
+        }
